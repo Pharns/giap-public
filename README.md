@@ -14,6 +14,8 @@ Access the public demo (read-only): https://portal.aamcyber.work/demo
 This public overview mirrors a production repo that runs automated CI and deployment:
 - CI: API and UI lint/test workflows on push and pull request
 - CD: portal deploy workflow on main with secrets + secure remote sync
+- Gates: dependency install, lint, unit tests, and smoke checks
+- Controls: secrets verification and SSH key handling for deploy
 
 ## What This Is
 - Evidence-first intake automation with governance gates
