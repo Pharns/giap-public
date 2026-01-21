@@ -4,23 +4,17 @@
 ![Scope](https://img.shields.io/badge/scope-redacted-blue)
 ![License](https://img.shields.io/badge/license-proprietary-lightgrey)
 
-Privacy-first, self-hosted intake automation for GRC consulting. This public repo is a safe, redacted overview intended to demonstrate GRC engineering capability without exposing proprietary workflows or client data.
+Privacy-first, self-hosted intake automation for GRC consulting. This is a public-safe, redacted overview that demonstrates GRC engineering capability without exposing proprietary workflows or client data.
 
-## Scope and Redaction
-- This repo includes architecture, framework mapping, and example outputs.
-- Proprietary workflow logic, production endpoints, and credentials are omitted.
-- All examples are synthetic and non-client.
+## What This Is
+- Evidence-first intake automation with governance gates
+- Multi-framework intake mapping and audit-ready summaries
+- Privacy-preserving workflow orchestration
 
 ## Framework Alignment
 - SOC 2: CC1, CC3, CC4, CC6, CC7
 - NIST CSF: ID.AM, ID.GV, ID.RA, PR.AC, PR.DS, DE.CM
 - ISO 27001: A.5, A.6, A.8, A.12, A.18
-
-## What This Demonstrates
-- Evidence-first intake design with governance gates
-- Multi-framework intake mapping
-- Privacy-preserving workflow orchestration
-- Audit-ready output patterns
 
 ## High-Level Architecture (Redacted)
 
@@ -59,5 +53,9 @@ sequenceDiagram
 4. Control mapping summary is produced.
 5. Intake package is ready for assessment.
 
-## Disclaimers
-This is a public-safe overview. Do not use as a production system. No client data, proprietary workflows, or production infrastructure details are included.
+## Scope and Redaction
+- Proprietary workflow logic, endpoints, and credentials are omitted.
+- Examples are synthetic and non-client.
+
+## Disclaimer
+This is a public-safe overview. Do not use as a production system. No client data or proprietary infrastructure details are included.
