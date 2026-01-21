@@ -6,6 +6,9 @@
 
 Privacy-first, self-hosted intake automation for GRC consulting. This is a public-safe, redacted overview that demonstrates GRC engineering capability without exposing proprietary workflows or client data.
 
+## Live Demo
+Access the public demo (read-only): https://portal.aamcyber.work/demo
+
 ## What This Is
 - Evidence-first intake automation with governance gates
 - Multi-framework intake mapping and audit-ready summaries
