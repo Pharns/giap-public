@@ -3,11 +3,17 @@
 ![Status](https://img.shields.io/badge/status-public--safe-brightgreen)
 ![Scope](https://img.shields.io/badge/scope-redacted-blue)
 ![License](https://img.shields.io/badge/license-proprietary-lightgrey)
+![CI/CD](https://img.shields.io/badge/ci%2Fcd-implemented-informational)
 
 Privacy-first, self-hosted intake automation for GRC consulting. This is a public-safe, redacted overview that demonstrates GRC engineering capability without exposing proprietary workflows or client data.
 
 ## Live Demo
 Access the public demo (read-only): https://portal.aamcyber.work/demo
+
+## CI/CD (Private Repo)
+This public overview mirrors a production repo that runs automated CI and deployment:
+- CI: API and UI lint/test workflows on push and pull request
+- CD: portal deploy workflow on main with secrets + secure remote sync
 
 ## What This Is
 - Evidence-first intake automation with governance gates
