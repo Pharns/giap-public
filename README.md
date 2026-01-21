@@ -42,6 +42,25 @@ sequenceDiagram
   Evidence-->>Orchestrator: Summary + control map
 ```
 
+## Threat Model (Redacted)
+
+```mermaid
+flowchart LR
+  Ext[External User] --> Portal
+  Portal --> Orchestrator
+  Orchestrator --> Data[(Evidence Store)]
+  Admin[Admin Access] --> Orchestrator
+  Data --> Audit[Audit Logs]
+```
+
+## Compliance Mapping (Sample)
+
+| Control | Evidence Signal | Purpose |
+| --- | --- | --- |
+| SOC2 CC6 | Access control records | Identity and access governance |
+| NIST PR.AC | Intake access logs | Authorized access validation |
+| ISO A.8 | Data classification tags | Asset and data handling |
+
 ## Example Outputs
 - `examples/giap-intake.json` - sanitized intake payload
 - `examples/giap-summary.md` - redacted executive summary
@@ -52,6 +71,11 @@ sequenceDiagram
 3. Engagement letter is generated and signed.
 4. Control mapping summary is produced.
 5. Intake package is ready for assessment.
+
+## Key Decisions
+- Deposit gate to enforce scope discipline.
+- Evidence stored with minimal access paths.
+- Redacted public outputs to protect IP and client privacy.
 
 ## Scope and Redaction
 - Proprietary workflow logic, endpoints, and credentials are omitted.
