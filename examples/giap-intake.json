@@ -1,0 +1,14 @@
+{
+  "intake_id": "demo-2026-01-21",
+  "client_type": "regulated-professional",
+  "industry": "healthcare",
+  "frameworks": ["SOC2", "NIST-CSF", "ISO27001"],
+  "scope": {
+    "assets": ["endpoint", "email", "file-storage"],
+    "locations": ["home-office"],
+    "data_types": ["phi", "pii"]
+  },
+  "controls_focus": ["access-control", "data-protection", "logging"],
+  "evidence_bundle": "evidence/demo-2026-01-21",
+  "status": "pre-intake"
+}
