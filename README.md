@@ -34,6 +34,20 @@ flowchart TB
   Orchestrator --> GRC[Control Mapping]
 ```
 
+## Evidence Flow (Redacted)
+
+```mermaid
+sequenceDiagram
+  participant Client
+  participant Portal
+  participant Orchestrator
+  participant Evidence
+  Client->>Portal: Submit intake
+  Portal->>Orchestrator: Validate + route
+  Orchestrator->>Evidence: Create intake bundle
+  Evidence-->>Orchestrator: Summary + control map
+```
+
 ## Example Outputs
 - `examples/giap-intake.json` - sanitized intake payload
 - `examples/giap-summary.md` - redacted executive summary
