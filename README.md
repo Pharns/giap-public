@@ -1,5 +1,9 @@
 # GIAP - GRC Intake Automation Platform (Public Overview)
 
+![Status](https://img.shields.io/badge/status-public--safe-brightgreen)
+![Scope](https://img.shields.io/badge/scope-redacted-blue)
+![License](https://img.shields.io/badge/license-proprietary-lightgrey)
+
 Privacy-first, self-hosted intake automation for GRC consulting. This public repo is a safe, redacted overview intended to demonstrate GRC engineering capability without exposing proprietary workflows or client data.
 
 ## Scope and Redaction
