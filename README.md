@@ -4,6 +4,7 @@
 ![Scope](https://img.shields.io/badge/scope-redacted-blue)
 ![License](https://img.shields.io/badge/license-proprietary-lightgrey)
 ![CI/CD](https://img.shields.io/badge/ci%2Fcd-implemented-informational)
+![Demo Outputs](https://img.shields.io/badge/demo-outputs-blue)
 
 Privacy-first, self-hosted intake automation for GRC consulting. This is a public-safe, redacted overview that demonstrates GRC engineering capability without exposing proprietary workflows or client data.
 
@@ -75,6 +76,8 @@ flowchart LR
 ## Example Outputs
 - `examples/giap-intake.json` - sanitized intake payload
 - `examples/giap-summary.md` - redacted executive summary
+- `examples/giap-control-map.md` - synthetic control mapping excerpt
+- `examples/giap-evidence-manifest.json` - synthetic evidence manifest
 
 ## Demo-Only Flow (Conceptual)
 1. Client submits pre-intake form.

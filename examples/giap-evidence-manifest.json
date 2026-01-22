@@ -1,0 +1,25 @@
+{
+  "intake_id": "GIAP-2026-0007",
+  "created_utc": "2026-01-21T18:10:00Z",
+  "artifacts": [
+    {
+      "name": "intake.json",
+      "type": "intake_payload",
+      "sha256": "REDACTED"
+    },
+    {
+      "name": "intake-summary.md",
+      "type": "executive_summary",
+      "sha256": "REDACTED"
+    },
+    {
+      "name": "control-map.md",
+      "type": "control_mapping",
+      "sha256": "REDACTED"
+    }
+  ],
+  "integrity": {
+    "manifest_hash": "sha256:REDACTED",
+    "signed": false
+  }
+}
